@@ -9,7 +9,7 @@ inputs:
   timeout:
     description: Tunnel timeout
     required: true
-    default: 1h
+    default: 4h
   port:
     description: Local port to forward to
     required: true
