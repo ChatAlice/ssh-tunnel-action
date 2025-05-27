@@ -32,7 +32,7 @@ jobs:
       run: tar zxvf ngrok-v3-stable-linux-amd64.tgz
 
     - name: setup ngrok API token
-      run: ./ngrok config add-authtoken 2xf3qmlq9JMOqxZY0gmo6n4Ic0v_7CwTTt5oL34jiXFabCPkL
+      run: ./ngrok config add-authtoken 2xf1RmEGBKV5z0nCMxbxLN2GbjY_5BzxqFt8cCWZ55N3MffcP
 
     - name: Tunel for SSH port
       run: ./ngrok tcp 22
